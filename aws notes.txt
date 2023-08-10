@@ -1,0 +1,161 @@
+cloud computing:
+     1.the remote server that we accesss through internet for deploying our own resources 
+     2.access through the remote location via internet
+     
+#traditional way---------
+main things are important through hosting website
+-----------------------------------------------------
+-infrastructure
+-server rooms
+-networking
+-electricity
+-cooling system
+-human resource
+-capital
+-maintenance
+
+In cloud these all things are provided by cloud or owned by cloud
+
+#essential characteristics of cloud computing:
+-on demand self service
+if you want increase the server so you can pay the rent for that and use it
+
+-broad network access and high availability
+globally accsess,availability of resorces
+
+-resourse pooling
+resource sharing and accessible to users
+
+-rapid elasticity
+rapidly create resource and also destroy according your requirement
+
+-measure services
+we measure the cloud services
+
+#deployment model
+1.public cloud
+publically accessible to all through internet
+ 
+2.private cloud
+set up for particular organization connected through private network
+
+3.hybrid cloud
+public+private ex. aws
+
+4.community cloud
+made for community
+
+#cloud architexture
+
+vm  vm  vm  vm
+     |
+virtualizatiion
+     | 
+operating system(OS)
+     |
+  hardware
+
+aws cloud work on zen virtualizer.Aure is work on vmvare.
+
+#service models
+layers of service models=
+       application        
+       data             
+       runtime
+       middleware
+       os
+       virtualization
+       server
+       storage
+       network
+
+IAAS(infrastructure as a service) virtualization,servers,storage,network provided by cloud vender and other things managed by client.provide infrastructre
+ex.
+
+PAAS(platform as a service) runtime,middleware,os,vitualization,servers,storage,network managed by cloud vender and other things manged by client
+ex.
+
+SAAS(software as a service)
+all things are managed by cloud vender
+ex. google drive
+
+#aws global infrastructure
+31 regions and 99+ availabilty zone
+regions are geographical stations 
+
+
+#IAM Service
+resources
+1.users: who will use account
+2.groups:adding user0
+3.policies: aws resourse from service iam that can be used to assignpermission to any identity
+4.roles:communication between 2 services
+features of the roles:
+1.better way to provide access
+2.temprory access
+3.less human interaction
+4.machine permission
+
+1.service which is accessing
+2.service which is accessible(permission)
+3.role name
+
+polies attached to user ,groups and roles
+roles attached to aws resource only to permit permission to other service
+
+ARN filed=uniq identity
+1.ARN
+2.partition=aws,aws china,aws government
+3.service name
+4.region
+5.account id
+6.resource type
+7.resource name
+
+active directory= centralized user server/user server setup
+
+#s3 service =simple storage service
+object storage,highly scalable/available
+any amount of data-access from anywhere
+unlimited data storage
+99.999999999999 =3 geolocation replica
+
+types=1.object storage(data+metadata)
+      2.block storage(data/block)
+
+global service
+bucket(resource of s3)= container
+buckets are region specific
+100 buckets create on each region
+bucket name = world wide unique
+
+static website= no database,nonchangable
+dynamic website=stored database,changable
+
+CDN =content delivery network
+transfer acceleration depends on
+1.internet speed
+2.server speed
+3.distance
+4.processing power
+
+
+storage classes:
+frequently acess
+    standard 
+    reduced redundancy
+intelligent tiering
+infrequently acess
+    standard-IA
+    onezone-IA
+archive
+    glacier
+    deep glacier
+
+
+	
+
+
+
+
+
